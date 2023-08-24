@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>csstransition</title>
+	<style type="text/css">
+		button{
+			width:290px;
+			height:90px;
+			background-color:blue;
+			color:white;
+			font-size: 28px;
+			border: none; 
+
+			transition-property:background-color; /*အောက်တွင် ရှီသော property name ကို ခေါ်သည်။*/
+			/*transition-duration: 2s;*/
+			/*1s = 1000ms*/
+			transition-duration:2000ms; /*ပြောင်းလဲရန်ကြာချိန် */
+		}
+
+		/*pseudo class (:)*/
+		button:hover{
+			background-color: green;
+		}
+
+	</style>
+</head>
+<body>
+	<button>CSS Transition</button>
+</body>
+</html>
